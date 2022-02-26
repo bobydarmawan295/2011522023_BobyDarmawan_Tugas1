@@ -40,22 +40,26 @@ public class App {
                     System.out.println("Size array : " + nama.size());
 					break;
 				case "4":
-                    System.out.println("Elemen pada indeks ke-0 " + nama.get(0));
-                    System.out.println("Elemen pada indeks ke-2 " + nama.get(2));
-                    System.out.println("Elemen pada indeks ke-6 " +nama.get(6));
+                    System.out.println(nama);
+                    System.out.println("Elemen pada indeks ke-0 : " + nama.get(0));
+                    System.out.println("Elemen pada indeks ke-2 : " + nama.get(2));
+                    System.out.println("Elemen pada indeks ke-6 : " +nama.get(6));
                     System.out.println(nama.get(-3)); 
 					break;
 				case "5":
+                    System.out.println(nama);
                     System.out.println("elemen a berada pada indeks ke- " + nama.indexOf("a"));
                     System.out.println("elemen c berada pada indeks ke- " + nama.indexOf("c"));
                     System.out.println("elemen q berada pada indeks ke- " + nama.indexOf("q"));
 					break;
                 case "6":
+                    System.out.println(nama);
                     System.out.println("elemen pada indeks ke-0 " + nama.remove(0) + " dihapus");
                     System.out.println("elemen pada indeks ke-3 " + nama.remove(3) + " dihapus");
                     System.out.println("elemen pada indeks ke-2 " + nama.remove(2) + " dihapus");
                     break;
                 case "7":
+                    System.out.println(nama);
                     nama.add(0,"e");
                     nama.add(2,"f");
                     nama.add(3,"g");
