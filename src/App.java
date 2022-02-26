@@ -26,32 +26,32 @@ public class App {
             System.out.println("7. Add()     => Menambah elemen array");
 
             System.out.print("\nPilihan anda (1/2/3/4/5/6/7): ");
-				pilihanUser = input.next();
-				
-				switch (pilihanUser) {
-				case "1":
-                    System.out.println(nama);
-					break;
-				case "2":
-                    System.out.println(nama.isEmpty());
-					break;
-				case "3":
-                    System.out.println(nama);
-                    System.out.println("Size array : " + nama.size());
-					break;
-				case "4":
-                    System.out.println(nama);
-                    System.out.println("Elemen pada indeks ke-0 : " + nama.get(0));
-                    System.out.println("Elemen pada indeks ke-2 : " + nama.get(2));
-                    System.out.println("Elemen pada indeks ke-6 : " +nama.get(6));
-                    System.out.println(nama.get(-3)); 
-					break;
-				case "5":
-                    System.out.println(nama);
-                    System.out.println("elemen a berada pada indeks ke- " + nama.indexOf("a"));
-                    System.out.println("elemen c berada pada indeks ke- " + nama.indexOf("c"));
-                    System.out.println("elemen q berada pada indeks ke- " + nama.indexOf("q"));
-					break;
+		pilihanUser = input.next();
+
+		switch (pilihanUser) {
+		case "1":
+		    System.out.println(nama);
+		    break;
+		case "2":
+    		    System.out.println(nama.isEmpty());
+		    break;
+		case "3":
+		    System.out.println(nama);
+		    System.out.println("Size array : " + nama.size());
+		    break;
+		case "4":
+		    System.out.println(nama);
+		    System.out.println("Elemen pada indeks ke-0 : " + nama.get(0));
+		    System.out.println("Elemen pada indeks ke-2 : " + nama.get(2));
+		    System.out.println("Elemen pada indeks ke-6 : " +nama.get(6));
+		    System.out.println(nama.get(-3)); 
+		    break;
+		case "5":
+		    System.out.println(nama);
+		    System.out.println("elemen a berada pada indeks ke- " + nama.indexOf("a"));
+		    System.out.println("elemen c berada pada indeks ke- " + nama.indexOf("c"));
+		    System.out.println("elemen q berada pada indeks ke- " + nama.indexOf("q"));
+		    break;
                 case "6":
                     System.out.println(nama);
                     System.out.println("elemen pada indeks ke-0 " + nama.remove(0) + " dihapus");
@@ -68,14 +68,15 @@ public class App {
                     nama.add(-3,"j");
                     System.out.println(nama);
                     break;
-				default:
-					System.out.println("\nInput anda tidak ditemukan\nSilakan pilih [1-7]");
-				}
-                
-				System.out.print("\nApakah Anda ingin melanjutkan [y/n]? ");
-				pilihanUser = input.next();
-				isContinue = pilihanUser.equalsIgnoreCase("y");
-			}
+		default:
+		    System.out.println("\nInput anda tidak ditemukan\nSilakan pilih [1-7]");
+		    break;
+		}
+
+		System.out.print("\nApakah Anda ingin melanjutkan [y/n]? ");
+		pilihanUser = input.next();
+		isContinue = pilihanUser.equalsIgnoreCase("y");
+	    }
 				
         }
       
