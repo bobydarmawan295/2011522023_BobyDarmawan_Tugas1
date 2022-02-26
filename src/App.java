@@ -52,22 +52,22 @@ public class App {
 		    System.out.println("elemen c berada pada indeks ke- " + nama.indexOf("c"));
 		    System.out.println("elemen q berada pada indeks ke- " + nama.indexOf("q"));
 		    break;
-                case "6":
-                    System.out.println(nama);
-                    System.out.println("elemen pada indeks ke-0 " + nama.remove(0) + " dihapus");
-                    System.out.println("elemen pada indeks ke-3 " + nama.remove(3) + " dihapus");
-                    System.out.println("elemen pada indeks ke-2 " + nama.remove(2) + " dihapus");
-                    break;
-                case "7":
-                    System.out.println(nama);
-                    nama.add(0,"e");
-                    nama.add(2,"f");
-                    nama.add(3,"g");
-                    nama.add(4,"h");
-                    nama.add(6,"h");
-                    nama.add(-3,"j");
-                    System.out.println(nama);
-                    break;
+        case "6":
+            System.out.println(nama);
+            System.out.println("elemen pada indeks ke-0 " + nama.remove(0) + " dihapus");
+            System.out.println("elemen pada indeks ke-3 " + nama.remove(3) + " dihapus");
+            System.out.println("elemen pada indeks ke-2 " + nama.remove(2) + " dihapus");
+            break;
+        case "7":
+            System.out.println(nama);
+            nama.add(0,"e");
+            nama.add(2,"f");
+            nama.add(3,"g");
+            nama.add(4,"h");
+            nama.add(6,"h");
+            nama.add(-3,"j");
+            System.out.println(nama);
+            break;
 		default:
 		    System.out.println("\nInput anda tidak ditemukan\nSilakan pilih [1-7]");
 		    break;
@@ -78,7 +78,7 @@ public class App {
 		isContinue = pilihanUser.equalsIgnoreCase("y");
 	    }
 				
-        }
+    }
       
 
 }
